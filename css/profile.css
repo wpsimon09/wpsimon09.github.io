@@ -1,1 +1,36 @@
 @import url(layout.css);
+
+h1{
+    width: fit-content;
+    height: auto;
+    font-size: 54px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    align-items: center;
+    color: gray;
+}
+
+.infoAboutMe{
+    margin-top: 30px;
+    background-color: transparent;
+    list-style: circle;
+    text-transform: none;
+}
+
+p{
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hobbyList{
+    background-color: transparent;
+    list-style-type:circle;
+    text-transform: none;
+}
+
+img {
+    display: block;
+    margin-top: 30px;
+    border-radius: 20%;
+}
+
