@@ -1,1 +1,22 @@
 @import url(layout.css);
+
+.QandA{
+    text-align: left;
+}
+
+details{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 2px black solid;
+}
+
+.answer{
+    margin-left: 20px;
+}
+
+summary{
+    color: #497AB5;
+    font-size: 20px;
+    font-weight: bold;
+}
