@@ -1,0 +1,115 @@
+aside{
+  border:solid black 2px;
+  border-radius: 15px;
+  background-color: #77A1AF;
+  margin: 4;
+  width: 300px;
+}
+nav{
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+body{
+  background-color: whitesmoke;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  background-color: white;
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  flex: 1 1 0%
+}
+ul {
+  text-transform: capitalize;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #15424E;
+  top: 0;
+  width: 100%;  
+}
+
+li {
+  float: right;
+  margin-left: 3px;
+}
+
+li a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: block;
+  text-transform: capitalize;
+  color: whitesmoke;
+  font-size: 15 px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a{
+  border-radius: 12px;
+}
+
+
+li a:hover {
+  background-color: #77A1AF;
+}
+
+.active {
+  background-color: #65DDC9;
+  border-radius: 12px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+p{
+  font-size: 17px;
+  text-align: left;
+}
+
+article{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+html{
+  height: 100%;
+}
+section{
+  display: flex;
+  flex: 1;
+}
+
+html,body {
+  height: 100%;
+}
+
+.assideList{
+    position: sticky;
+    display: grid;
+    column-gap: 7px;
+    border-radius: 20px;
+    column-gap: 40px;
+    background-color: transparent;
+}
+
+.assideLink{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.assideLink:hover{
+    background-color: #214C59;
+}
