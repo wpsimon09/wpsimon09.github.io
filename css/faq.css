@@ -9,6 +9,7 @@ details{
     margin-top: 20px;
     margin-left: 10px;
     border: 2px black solid;
+    border-radius: 10px;
 }
 
 .answer{
@@ -19,4 +20,22 @@ summary{
     color: #497AB5;
     font-size: 20px;
     font-weight: bold;
+}
+
+.faqHeader{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    text-align: center;
+}
+
+details:hover{
+    background-color: #BFFBFF;
+}
+.decorationLine{
+    border-bottom: 3px solid black;
+}
+
+.header{
+    display: flex;
 }
