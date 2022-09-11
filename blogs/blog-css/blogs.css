@@ -1,0 +1,49 @@
+@import "blog-layout.css";
+
+.article{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.articleTitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    
+}
+
+.articleInformation{
+    display: flex;
+    align-items: baselines;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.articleDate{
+    align-self: flex-end;
+}
+
+.articleDate:last-child{
+    margin-left: auto;
+}
+
+.articleAutor{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.articleContent{
+    padding: 20px;
+    width: 65%;
+    align-self: center;
+}
+
+.blogParagraph{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.tab{
+    margin-left: 30px;
+}

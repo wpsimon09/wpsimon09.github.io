@@ -24,7 +24,7 @@ p{
 
 .hobbyList{
     background-color: transparent;
-    list-style-type:circle;
+    list-style-position: insides;
     text-transform: none;
 }
 

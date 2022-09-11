@@ -38,9 +38,10 @@
 h3,.blogLink {
   margin-bottom: 10px;
   text-align: left;
-  color: black;
+  color: rgb(185, 185, 185);
   font-size: 15 px;
   text-align: center;
+  text-decoration: none;
 }
 
 .read-more-p{

@@ -97,7 +97,8 @@ html,body {
 
 .assideList{
     position: sticky;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     column-gap: 7px;
     border-radius: 20px;
     column-gap: 40px;
