@@ -3,7 +3,7 @@
 .blogPostWelcomeHeader {
   width: 100%;
   height: auto;
-  font-size: 40px;
+  font-size: 50px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
   align-items: center;
@@ -17,33 +17,40 @@
 
 .blogs {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto;
   gap: 10px;
   padding: 10px;
   gap: 30px;
 }
 
 .grid-item{
-    border: 3px #008799 solid;
-    background-color: #BFFBFF;
+    border: 5px gray solid;
     word-wrap: break-word;
     padding: 4px;
     border-radius: 10px;
-}
-
-.grid-item:hover{
-    background-color: #58BDCF;
+    width: 550px;
+    height: 300px;
+    box-shadow: 4px 4px 4px gray; 
 }
 
 h3,.blogLink {
   margin-bottom: 10px;
   text-align: left;
-  color: rgb(185, 185, 185);
-  font-size: 15 px;
+  color: black;
+  font-size: 30px;
   text-align: center;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .read-more-p{
-    margin-top: 10px;
+    margin-top: 15px;
+}
+
+.blog-showcase{
+  padding: 10px;
+}
+
+.read-more-paragraph{
+  font-size: 20px;
 }
