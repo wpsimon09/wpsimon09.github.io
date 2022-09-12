@@ -48,8 +48,10 @@ li a {
   color: whitesmoke;
   font-size: 15 px;
   text-align: center;
+  width: 100px;
   padding: 14px 16px;
   text-decoration: none;
+  transition: width 2s;
 }
 
 a{
@@ -59,6 +61,7 @@ a{
 
 li a:hover {
   background-color: #77A1AF;
+  width: 140px;
 }
 
 .active {
@@ -114,4 +117,9 @@ html,body {
 
 .assideLink:hover{
     background-color: #214C59;
+}
+
+@keyframes menuHoverAnimation{
+  from{padding:14px 16px;}
+  to{padding: 20px 22px;}
 }
