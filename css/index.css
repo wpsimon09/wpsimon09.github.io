@@ -1,1 +1,167 @@
 @import url(layout.css);
+
+.titleImg{
+    width: 100%;
+    height: 530px;
+    border-bottom: 5px solid white;
+}
+
+.profileImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 5px solid white;
+    position: relative;
+    left: 100px;
+    bottom: 150px;
+}
+
+.indexPageContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.images{    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profileSection{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+
+}
+
+
+
+article{
+    padding: 0;
+}
+
+.contentSection{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+}
+
+.profilePictureDiv{
+    display: flex;
+    flex-direction: row;
+    background-color: #7da2c6;
+}
+
+.aboutMeDiv{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.aboutMeImgAndP{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.aboutMePIcon{
+    width: 30px;
+    height: 30px;
+}
+
+.aboutMeP{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.motivation{
+    display: flex;
+    flex-direction: column;
+}
+
+.motivationParagraph{
+    width: 45%; 
+    font-size: 25px;
+    margin-left: 230px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.motivationParagraph1{
+    width: 45%;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.motivationParagraphDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.motivationParagraph1Div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+}
+
+.paragraphImage{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    margin-left: 100px;
+}
+
+.paragraphImage1{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    margin-right: 100px;
+    order: -1;
+}
+
+.linkList{
+    margin-top: 10px;
+    align-self: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 40px;
+    margin-bottom: 160px;
+}
+
+.linkListItem{
+    background-color: transparent;
+    transition: margin-left 1s;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.imageLink{
+    text-decoration: none;
+    transition: margin-left 1s;  
+   
+}
+
+.linkListItem:hover{
+    background-color: transparent;
+    margin-left: 12px;
+} 
+.imageLink:hover {
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+
+.image{
+    width: 30px;
+    height: 30px;
+}
