@@ -1,4 +1,4 @@
-aside{
+  aside{
   background-color: #77A1AF;
   margin: 4;
   width: 300px;
@@ -51,7 +51,7 @@ li a {
   width: 100px;
   padding: 14px 16px;
   text-decoration: none;
-  transition: width 2s;
+  transition: width 0.3s;
 }
 
 a{
@@ -102,21 +102,26 @@ html,body {
 }
 
 .assideList{
-    position: sticky;
-    display: grid;
-    column-gap: 7px;
-    border-radius: 20px;
-    column-gap: 40px;
-    background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
 }
 
-.assideLink{
+.assideListItem{
+  margin-top:5px;
+  width: 200px;
+  transition: border 0.5s;
+  align-self: center;
+}
+
+.assideListLink{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
 
-.assideLink:hover{
-    background-color: #214C59;
+.assideListItem .assideListLink:hover{
+    background-color: #5d7f8a;
 }
 
 @keyframes menuHoverAnimation{
