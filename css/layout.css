@@ -1,10 +1,11 @@
+
   aside{
   background-color: #77A1AF;
   margin: 4;
   width: 300px;
   align-items: center;
 }
-nav{
+nav.topNavigation{
   background-color: white;
   position: sticky;
   top: 0;
@@ -26,50 +27,64 @@ main{
   flex: 1 1 0%
 }
 
-ul {
+ul.topNavigationList{
   text-transform: capitalize;
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
   overflow: hidden;
   background-color: #15424E;
   top: 0;
   width: 100%;  
 }
 
-li {
-  float: right;
-  margin-left: 3px;
+li.topNavigationListITem {
+  float: left;
 }
 
-li a {
+li.topNavigationListITem{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: block;
+  margin-left: 20px;
+  text-transform: capitalize;
+  color: whitesmoke;
+  font-size: 15px;
+  text-align: center;
+  width: 120px;
+  padding: 5px;
+  text-decoration: none;
+  transition: padding 0.3s;
+} 
+a.topNavigationListLink {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   display: block;
   text-transform: capitalize;
   color: whitesmoke;
-  font-size: 15 px;
+  font-size: 15px;
   text-align: center;
-  width: 100px;
+  width: 120px;
   padding: 14px 16px;
   text-decoration: none;
-  transition: width 0.3s;
+  transition: padding 0.3s;
+  margin-left: 10px;
 }
 
-a{
+a.topNavigationListLink{
   border-radius: 12px;
 }
 
 
-li a:hover {
+a.topNavigationListLink:hover {
   background-color: #77A1AF;
-  width: 140px;
+  padding: 18px;
 }
 
-.active {
-  background-color: #65DDC9;
+#active {
+  margin-left: 10px;
+  background-color: #7da2c6;;
   border-radius: 12px;
 }
 
-li:last-child {
+li.topNavigationListITem:last-child {
   border-right: none;
 }
 
