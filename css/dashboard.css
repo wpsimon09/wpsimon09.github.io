@@ -5,6 +5,7 @@ table{
     border-collapse: collapse;
     background-color: #DCF5FA;
     width: 100%;
+    border-radius: 10px;
 }
 
 tr{
@@ -29,6 +30,7 @@ th{
 
 thead{
     background-color: #26909F;
+    position: static;
 }
 
 .quartile{
@@ -79,3 +81,50 @@ progress{
     margin-left: 15px;
 }
 
+.personalExperienceBar{
+    height: 40px;
+    width: 100%;
+    border: #494554 solid 2px;
+    border-radius: 5px;
+
+}
+
+.personalExperienceProgress{
+    height: 37px;
+    width: 50%;
+    background-color: rgb(69, 221, 230);
+    border-radius: inherit;
+}
+
+.ppdTable{
+    margin-top: 20px;
+}
+
+.ppdTableHeader{
+    font-size: 20px;
+    
+}
+
+.ppedButton{
+    width: 80px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 7px;
+    font-size: 30px;
+    
+}
+
+.ppedButtonDiv{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+}
+
+.ppedParentDiv
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
