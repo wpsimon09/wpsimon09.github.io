@@ -31,6 +31,7 @@
     width: 550px;
     height: 300px;
     box-shadow: 4px 4px 4px gray; 
+    transition: height 0.7s;
 }
 
 h3,.blogLink {
@@ -40,11 +41,12 @@ h3,.blogLink {
   font-size: 30px;
   text-align: center;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .read-more-p{
     margin-top: 15px;
+    text-decoration: none;
 }
 
 .blog-showcase{
@@ -53,4 +55,13 @@ h3,.blogLink {
 
 .read-more-paragraph{
   font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.read-more-link{
+  text-decoration: none;
+}
+
+.grid-item:hover{
+  height: 370px;
 }

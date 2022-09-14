@@ -2,12 +2,13 @@
   aside{
   background-color: #77A1AF;
   margin: 4;
-  width: 300px;
+  width: 200px;
   align-items: center;
 }
 nav.topNavigation{
   background-color: white;
   position: sticky;
+  z-index: 99;
   top: 0;
 }
 body{
@@ -38,7 +39,8 @@ ul.topNavigationList{
 }
 
 li.topNavigationListITem {
-  float: left;
+  float: right;
+  margin-right: 10px;
 }
 
 li.topNavigationListITem{
@@ -80,7 +82,7 @@ a.topNavigationListLink:hover {
 
 #active {
   margin-left: 10px;
-  background-color: #7da2c6;;
+  background-color: #7da2c6;
   border-radius: 12px;
 }
 
@@ -121,10 +123,13 @@ html,body {
   flex-direction: column;
   align-items: center;
   background-color: transparent;
+  list-style-type: none;
+  position:sticky;
 }
 
 .assideListItem{
-  margin-top:5px;
+  padding: 10px;
+  margin-top:50px;
   width: 200px;
   transition: border 0.5s;
   align-self: center;
@@ -133,10 +138,16 @@ html,body {
 .assideListLink{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+    text-decoration: none;
+    transition: padding 0.7s;
+    border-radius: 10px;
+
 }
 
-.assideListItem .assideListLink:hover{
-    background-color: #5d7f8a;
+.assideListLink:hover{
+    width: 100%;
+    background-color: #15424E;
+    padding: 15px;
 }
 
 @keyframes menuHoverAnimation{
