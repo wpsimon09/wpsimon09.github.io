@@ -8,74 +8,97 @@
     <title>Hello there</title>
   </head>
   <body>
-    <nav>
-        <ul>  
-            <li class="active">
-              <a href="http://localhost/blog.html">Blog</a>
-            </li>
-            <li>
-              <a href="http://localhost/faq.html">FAQ</a>
-            </li>
-            <li>
-              <a href="http://localhost/dashboard.html">Dashboard</a>
-            </li>
-            <li>
-              <a href="http://localhost/profile.html">Profile</a>
-            </li>
-            <li>
-              <a href="http://localhost/index.html">Home</a>
-            </li>
-          </ul>
+    <button onclick="topFunction()" id="upBtn" >
+      <img class="btnUpImage" src="../resources/icons/up-arrow.png">
+    </button>
+    
+    <script src="../js/scroll-up.js"></script>
+    <nav class="topNavigation">
+      <ul class="topNavigationList">
+        <li class="topNavigationListITem">
+          <a class="topNavigationListLink" href="http://localhost/blog.html">
+            <img class="homeImage" src="../resources/icons/home.png">
+          </a>
+        </li>
+      </ul>
     </nav>
     <section>
       <aside>
         <ul class="assideList">
-            <li>
-              <a
-                class="assideLink"
-                href="https://hz.nl/en/"
-                target="_blank"
-                >HZ MAIN PAGE</a
-              >
-            </li>
-            <li>
-              <a
-                class="assideLink"
-                href="https://fs.myhz.nl/adfs/oauth2/authorize/?resource=urn%3AWebservice-hz_portal&state=195f30e504021a5dec1d5023b6691342&scope=openid&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fportal.hz.nl%2Fauth%2Fadfs%2Fcallback&client_id=b25d3143-ffab-46db-96bd-fff258b69da3&client-request-id=0b3879af-ae2c-4911-5000-0080001c0087&pullStatus=0"
-                target="_blank"
-                >MY HZ</a
-              >
-            </li>
-            <li>
-              <a
-                class="assideLink"
-                href="https://learn.hz.nl/"
-                target="_blank"
-              >
-               HZ.LEARN
-              </a>
-            </li>
-            <li>
-              <a
-                class="assideLink"
-                href="https://github.com/wpsimon09"
-                target="_blank"
-                >MY GIT HUB</a
-              >
-            </li>
-            <li>
-              <a
-                class="assideLink"
-                href="https://www.instagram.com/wpsimon9/"
-                target="_blank"
-                >MY INSTAGRAM</a
-              >
-            </li>
-          </ul>
+          <li class="assideListItem">
+            <a class="assideListLink"
+              class="assideLink"
+              href="https://hz.nl/en/"
+              target="_blank"
+              >HZ MAIN PAGE</a
+            >
+          </li>
+          <li class="assideListItem">
+            <a class="assideListLink"
+              class="assideLink"
+              href="https://fs.myhz.nl/adfs/oauth2/authorize/?resource=urn%3AWebservice-hz_portal&state=195f30e504021a5dec1d5023b6691342&scope=openid&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fportal.hz.nl%2Fauth%2Fadfs%2Fcallback&client_id=b25d3143-ffab-46db-96bd-fff258b69da3&client-request-id=0b3879af-ae2c-4911-5000-0080001c0087&pullStatus=0"
+              target="_blank"
+              >MY HZ</a
+            >
+          </li>
+          <li class="assideListItem">
+            <a class="assideListLink"
+              class="assideLink"
+              href="https://learn.hz.nl/"
+              target="_blank"
+            >
+             HZ.LEARN
+            </a>
+          </li>
+          <li class="assideListItem">
+            <a class="assideListLink"
+              class="assideLink"
+              href="https://github.com/wpsimon09"
+              target="_blank"
+              >MY GIT HUB</a
+            >
+          </li>
+          <li class="assideListItem">
+            <a class="assideListLink"
+              class="assideLink"
+              href="https://www.instagram.com/wpsimon9/"
+              target="_blank"
+              >MY INSTAGRAM</a
+            >
+          </li>
+        </ul>
       </aside>
       <main>
         <article>
+          <div class="article">
+            <div class="articleHeader">
+              <h1 class="articleTitle">Personal SWOT analysis</h1>
+              <div class="articleInformation">
+                <p class="articleAutor">Simon Potocnak</p>
+                <p class="articleDate">14.09.2022</p>
+              </div>
+            </div>
+            <div class="articleContent" style="display: flex; flex-direction: column;">
+                <p class="blogParagraph">
+                  <span class="tab"></span></p>
+                  <p class="blogParagraph">
+                    <span class="tab"></span>
+                    The one of the things we had to write in who am I assignment was so called personal SWOT analysis. For those who don’t know what swat analysis is it is the form of writing down in points our strengths weaknesses opportunities and threads.
+                  </p>
 
+                  <p class="blogParagraph">
+                    <span class="tab"></span> In the field where we were supposed to write our strengths I wrote things like enjoying creating something new, love for technology, fast learning skills, good problem solving thinking, patience etc.</p>
+
+                  <p class="blogParagraph">
+                    <span class="tab"></span>As my opportunities I consider my enjoyment of programming as well as my patience which those two I consider as the most important things in the programming and there are opportunities to move myself forward.</p>
+                  <p class="blogParagraph">
+                    <span class="tab"></span>On the other hand my threats are things like I am not really talkative, I feel really anxious while asking for help and as the biggest tread I consider that I cannot express what I want mostly because I have like 200 things on my mind and I don’t know which one is the “right one”.</p>
+
+                  <p class="blogParagraph">
+                    <span class="tab"></span>In the conclusion this SWOT analysis really helped me to realize what thigs I need to focus to improve or on the other hand what things are good at so I can teach others.</p>
+                    <img src="../resources/swot-analysis.jpg" style="margin-top: 20px;">
+                  </div>
+        </div>
         </article>
       </main>
     </section>

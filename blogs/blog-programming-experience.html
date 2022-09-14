@@ -8,74 +8,109 @@
     <title>Hello there</title>
   </head>
   <body>
-    <nav>
-        <ul>  
-            <li class="active">
-              <a href="http://localhost/blog.html">Blog</a>
-            </li>
-            <li>
-              <a href="http://localhost/faq.html">FAQ</a>
-            </li>
-            <li>
-              <a href="http://localhost/dashboard.html">Dashboard</a>
-            </li>
-            <li>
-              <a href="http://localhost/profile.html">Profile</a>
-            </li>
-            <li>
-              <a href="http://localhost/index.html">Home</a>
-            </li>
-          </ul>
+    <button onclick="topFunction()" id="upBtn" >
+      <img class="btnUpImage" src="../resources/icons/up-arrow.png">
+    </button>
+    
+    <script src="../js/scroll-up.js"></script>
+    <nav class="topNavigation">
+      <ul class="topNavigationList">
+        <li class="topNavigationListITem">
+          <a class="topNavigationListLink" href="http://localhost/blog.html">
+            <img class="homeImage" src="../resources/icons/home.png">
+          </a>
+        </li>
+      </ul>
     </nav>
     <section>
       <aside>
         <ul class="assideList">
-            <li>
-              <a
-                class="assideLink"
-                href="https://hz.nl/en/"
-                target="_blank"
-                >HZ MAIN PAGE</a
-              >
-            </li>
-            <li>
-              <a
-                class="assideLink"
-                href="https://fs.myhz.nl/adfs/oauth2/authorize/?resource=urn%3AWebservice-hz_portal&state=195f30e504021a5dec1d5023b6691342&scope=openid&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fportal.hz.nl%2Fauth%2Fadfs%2Fcallback&client_id=b25d3143-ffab-46db-96bd-fff258b69da3&client-request-id=0b3879af-ae2c-4911-5000-0080001c0087&pullStatus=0"
-                target="_blank"
-                >MY HZ</a
-              >
-            </li>
-            <li>
-              <a
-                class="assideLink"
-                href="https://learn.hz.nl/"
-                target="_blank"
-              >
-               HZ.LEARN
-              </a>
-            </li>
-            <li>
-              <a
-                class="assideLink"
-                href="https://github.com/wpsimon09"
-                target="_blank"
-                >MY GIT HUB</a
-              >
-            </li>
-            <li>
-              <a
-                class="assideLink"
-                href="https://www.instagram.com/wpsimon9/"
-                target="_blank"
-                >MY INSTAGRAM</a
-              >
-            </li>
-          </ul>
+          <li class="assideListItem">
+            <a class="assideListLink"
+              class="assideLink"
+              href="https://hz.nl/en/"
+              target="_blank"
+              >HZ MAIN PAGE</a
+            >
+          </li>
+          <li class="assideListItem">
+            <a class="assideListLink"
+              class="assideLink"
+              href="https://fs.myhz.nl/adfs/oauth2/authorize/?resource=urn%3AWebservice-hz_portal&state=195f30e504021a5dec1d5023b6691342&scope=openid&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fportal.hz.nl%2Fauth%2Fadfs%2Fcallback&client_id=b25d3143-ffab-46db-96bd-fff258b69da3&client-request-id=0b3879af-ae2c-4911-5000-0080001c0087&pullStatus=0"
+              target="_blank"
+              >MY HZ</a
+            >
+          </li>
+          <li class="assideListItem">
+            <a class="assideListLink"
+              class="assideLink"
+              href="https://learn.hz.nl/"
+              target="_blank"
+            >
+             HZ.LEARN
+            </a>
+          </li>
+          <li class="assideListItem">
+            <a class="assideListLink"
+              class="assideLink"
+              href="https://github.com/wpsimon09"
+              target="_blank"
+              >MY GIT HUB</a
+            >
+          </li>
+          <li class="assideListItem">
+            <a class="assideListLink"
+              class="assideLink"
+              href="https://www.instagram.com/wpsimon9/"
+              target="_blank"
+              >MY INSTAGRAM</a
+            >
+          </li>
+        </ul>
       </aside>
       <main>
         <article>
- 
+          <div class="article">
+            <div class="articleHeader">
+              <h1 class="articleTitle">Programming experience</h1>
+              <div class="articleInformation">
+                <p class="articleAutor">Simon Potocnak</p>
+                <p class="articleDate">14.09.2022</p>
+              </div>
+            </div>
+            <div class="articleContent">
+                  <p class="blogParagraph">
+                    <span class="tab"></span>I first encountered programming as the freshman in the high school. We were learning how to create some basic websites using HTML and CSS but I didn’t like it back then. Maybe it was because the teacher or maybe because I didn’t find it challenging enough. </p>
+
+                  <p class="blogParagraph">
+                    <span class="tab"></span>But later in my studies we started to learn basic about C++ which was little bit boring at first but after I encountered and overcame some harder problems I found out that the feeling I get is really rewarding, hence I started to program even more than I have to. </p>
+                  <p class="blogParagraph">
+                    <span class="tab"></span>My first bigger project was some console based tactical medieval game. The code look like a pieces of broken glass because we learned only fundamentals of language. We didn’t learn about object, pointers, memory management etc. but the aim of the classes was to learn us how to thing as the programmer, which was very essential. Because the most important thing is not to know the language’s syntax back and forth but how to thing of ways how to use language as an tool to overcame obstacles. Since than I know how to thing as an programmer.</p>
+
+                  <p class="blogParagraph">
+                    <span class="tab"></span>Then I started learning more about C++ itself by my own initiative although it was really hard language to start with I managed to learn it pretty good in my opinion and it gave me the confidence that I can learn any language.</p>
+
+                  <p class="blogParagraph">
+                    <span class="tab"></span>In the end of high school I had to created the graduation project. As I was interested in programming I choose to create an app which will serve as tool to manage money in class. Firstly I wanted to use C++ so I started to thing of the way how to create GUI (graphical user interface) app using this language. The most suitable option was library called a wxWidgets. But there was a catch. I had to learn it first. </p>
+                  <p class="blogParagraph">
+                    <span class="tab"></span>While I was learning the wxWidgets I discovered UWP (universal windows platform) which is basically environment to create GUI applications optimized for windows 10 or higher. It was using 2 new programming languages XAML and C#. Since than I had a fight in my had whether I should use the wxWidgets and stick to C++ or start learning C# and XAML. The UWP won.</p>
+
+                  <p class="blogParagraph">
+                    <span class="tab"></span>Thus I started learning C#. It was going smoothly because it is language from C family, hence it is really similar to C++ and much more easier because of it’s high level orientation. The language XAML was also really easy and fast to learn because it is almost same as HTML on top of that it is really intuitive.</p>
+
+                  <p class="blogParagraph">
+                    <span class="tab"></span>While I was creating the app (over 8 months) I encountered a ton of obstacles and I become efficient building apps in UWP and writing code in C#. The project was a big success for me teachers loved it and ask me to deploy it. </p>
+
+                  <p class="blogParagraph">
+                    <span class="tab"></span>In the senior year we were also learning how to create and maint databases using SQL</p>
+
+                  <p class="blogParagraph">
+                    <span class="tab"></span>After graduating I started to be interested in the waters of graphical programming. Thus I started to learn a graphical library called OpenGl using language C++ which I am still learning. </p>
+
+                  <p class="blogParagraph">
+                    <span class="tab"></span>In the conclusion I so far learned C++ and some libraries with it. I also was little bit forced to learn C# and XAML as well as UWP and .NET development. But most importantly I learned how to thing as a programmer.</p>
+            </div>
+        </div>
         </article>
       </main>
     </section>
