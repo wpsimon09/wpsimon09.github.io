@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Hello there</title>
-  <script>
-    alert("hello there    ")
-    var PersonalProffesionalDevelopment = 0;
-  </script>
+  
   </head>
 
   <body>
+    <script src="js/personalProffesionalDevelopment.js"></script>
     <nav class="topNavigation">
       <ul class="topNavigationList">
         <li class="topNavigationListITem">
@@ -208,17 +206,17 @@
                   <td>
                     <div class="ppedParentDiv">
                       <div class="barParentDiv">
-                        <p>1</p>
+                        <p class="min">0</p>
                         <div class="personalExperienceBar">
                           <div class="personalExperienceProgress">
-                            <p class="achievedPppdCredits"></p>
+                            <p id="points" class="achievedPppdCredits">20</p>
                           </div>
                         </div>
-                        <p>1</p>
+                        <p class="min">12.5</p>
                       </div>
                       <div class="ppedButtonDiv">
-                        <button id="ppedButton" class="ppedButton">+</button>
-                        <button id="ppedButton" class="ppedButton">-</button>
+                        <button id="ppedButtonPlus" onclick="plusClicked()" class="ppedButton">+</button>
+                        <button id="ppedButtonPlus" onclick="minusClicked()" class="ppedButton">-</button>
                       </div>
                     </div>
                   </td>

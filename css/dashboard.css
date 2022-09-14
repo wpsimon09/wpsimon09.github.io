@@ -29,7 +29,9 @@ th{
 }
 
 .achievedPppdCredits{
-
+    align-self: center;
+    font-size: 20px;
+    color: white;
 }
 
 thead{
@@ -98,7 +100,7 @@ progress{
 .personalExperienceProgress{
     height: 37px;
     width: 50%;
-    background-color: rgb(69, 221, 230);
+    background-color: rgb(45, 80, 82);
     border-radius: inherit;
 }
 
