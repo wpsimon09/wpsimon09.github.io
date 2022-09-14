@@ -11,60 +11,80 @@
     <nav class="topNavigation">
       <ul class="topNavigationList">
         <li class="topNavigationListITem">
-          <a  class="topNavigationListLink" href="http://localhost/blog.html">Blog</a>
+          <a class="topNavigationListLink" href="http://localhost/blog.html"
+            >Blog</a
+          >
         </li>
         <li class="topNavigationListITem">
-          <a class="topNavigationListLink" href="http://localhost/faq.html">FAQ</a>
+          <a class="topNavigationListLink" href="http://localhost/faq.html"
+            >FAQ</a
+          >
         </li>
         <li class="topNavigationListITem">
-          <a class="topNavigationListLink" href="http://localhost/dashboard.html">Dashboard</a>
+          <a
+            class="topNavigationListLink"
+            href="http://localhost/dashboard.html"
+            >Dashboard</a
+          >
         </li>
         <li class="topNavigationListITem">
-          <a id="active" class="topNavigationListLink" href="http://localhost/profile.html">Profile</a>
+          <a
+            id="active"
+            class="topNavigationListLink"
+            href="http://localhost/profile.html"
+            >Profile</a
+          >
         </li>
-        <li  class="topNavigationListITem">
-          <a  class="topNavigationListLink" href="http://localhost/index.html">Home</a>
+        <li class="topNavigationListITem">
+          <a class="topNavigationListLink" href="http://localhost/index.html"
+            >Home</a
+          >
         </li>
       </ul>
     </nav>
     <section>
       <aside>
         <ul class="assideList">
-          <li>
+          <li class="assideListItem">
             <a
+              class="assideListLink"
               class="assideLink"
               href="https://hz.nl/en/"
               target="_blank"
               >HZ MAIN PAGE</a
             >
           </li>
-          <li>
+          <li class="assideListItem">
             <a
+              class="assideListLink"
               class="assideLink"
               href="https://fs.myhz.nl/adfs/oauth2/authorize/?resource=urn%3AWebservice-hz_portal&state=195f30e504021a5dec1d5023b6691342&scope=openid&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fportal.hz.nl%2Fauth%2Fadfs%2Fcallback&client_id=b25d3143-ffab-46db-96bd-fff258b69da3&client-request-id=0b3879af-ae2c-4911-5000-0080001c0087&pullStatus=0"
               target="_blank"
               >MY HZ</a
             >
           </li>
-          <li>
+          <li class="assideListItem">
             <a
+              class="assideListLink"
               class="assideLink"
               href="https://learn.hz.nl/"
               target="_blank"
             >
-             HZ.LEARN
+              HZ.LEARN
             </a>
           </li>
-          <li>
+          <li class="assideListItem">
             <a
+              class="assideListLink"
               class="assideLink"
               href="https://github.com/wpsimon09"
               target="_blank"
               >MY GIT HUB</a
             >
           </li>
-          <li>
+          <li class="assideListItem">
             <a
+              class="assideListLink"
               class="assideLink"
               href="https://www.instagram.com/wpsimon9/"
               target="_blank"
@@ -75,23 +95,58 @@
       </aside>
       <main>
         <article>
-            <h1>Hello, my name is Simon Potocnak</h1>
-
-            <ul class="infoAboutMe">
-                <p>I am ICT student at HZ univerzity of applied sciences</p>
-                <p>I am from Prešov which is located on the eastern part of my country</p>
-                <p>In my free time I like to play computer games, hang out with my girlfriend and I also like to learn new stuff that I am interested in:</p>
-                <ul class="hobbyList">
-                    <li>C++</li>
-                    <li>OpenGL (graphical libray)</li>
-                    <li>And other nerd stuff</li>
-                </ul>
-                <p> I dont have favorite move but I really love games from souls series and I have played some of them more than 7 times</p>
-            </ul>
-            <img src="resources/darksouls3.jpg">
+          <div class="contentOfPage">
+            <img class="aboutMeImage" src="resources/profile-me.jpg" />
+            <div class="paragraphAndImage">
+              <div class="aboutMePDiv">
+                <h1 class="aboutMeHeader">Hello there !</h1>
+                <div class="paragraphsDiv">
+                  <p class="aboutMeP">
+                    My name is Simon. I came form Prešov which is small
+                    city in Slovakia.<br />
+                    I have graduated high school of electrotechnical engeneering
+                    with main focus on economy, computer science and elecrtical
+                    engeneering
+                  </p>
+                  <p class="aboutMeP">
+                    In my free time I like playing games, workout, hang out with
+                    my girlfirend and also programm and lern new things.<br />
+                  </p>
+                  <p class="aboutMeP">
+                    Currently I am learning graphical library called OpenGl using
+                    C++.
+                  </p>
+                  <p class="aboutMeP">
+                    Also, I have som app development experience with C# and XAML
+                    in UWP platform. And last but not least I know some basic of
+                    SQL language
+                  </p>
+                  <p class="aboutMeP">
+                    I dont have favorite movie but I really love games from souls
+                    series and I have played some of them more than 7 times.
+                  </p>
+                </div>
+              </div>
+              <h2 class="skillsHeader">Some of my knowlage</h2>
+              <ul class="skillList">
+                <li class="skillListItem">
+                  C++ development
+                </li>
+                <li class="skillListItem">
+                  UWP development
+                </li>
+                <li class="skillListItem">
+                  SQL
+                </li>
+                <li class="skillListItem">
+                  OpenGl basic
+                </li>
+                
+              </ul>
+            </div>
+            
+          </div>
         </article>
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
       </main>
     </section>
   </body>

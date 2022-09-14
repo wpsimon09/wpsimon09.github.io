@@ -1,36 +1,65 @@
 @import url(layout.css);
 
-h1{
-    width: fit-content;
-    height: auto;
-    font-size: 54px;
+.contentOfPage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.paragraphAndImage{  
+    margin-left: 180px;
+}
+
+.aboutMeP{
+    width: 600px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.aboutMePDiv{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMeImage{
+    border: solid black 2px;
+    border-radius:10px;
+    box-shadow: 4px 3px gray;
+    width: 450px;
+    height: 560px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.aboutMeHeader{
+    font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    align-items: center;
-    color: gray;
+    text-align: left;
+    text-shadow: gray 2px 2px;
 }
 
-.infoAboutMe{
-    margin-top: 30px;
-    background-color: transparent;
-    list-style: circle;
-    text-transform: none;
+.paragraphsDiv{
+    margin-top: 20px;
 }
 
-p{
-    margin-bottom: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.skillsHeader{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:10px;
 }
 
-.hobbyList{
-    background-color: transparent;
-    list-style-position: insides;
-    text-transform: none;
+.skillList{
+    display: flex;
+    align-items: flex-start;
+    list-style-type: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
 }
 
-img {
-    display: block;
-    margin-top: 30px;
-    border-radius: 20%;
+.skillListItem{
+    margin-top: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: size 18px;
 }
-
