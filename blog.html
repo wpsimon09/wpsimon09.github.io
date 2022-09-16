@@ -8,6 +8,7 @@
     <title>Hello there</title>
   </head>
   <body>
+    <script src="js/blogPostNavigation.js"></script>
     <nav class="topNavigation">
       <ul class="topNavigationList">
         <li class="topNavigationListITem">
@@ -76,8 +77,8 @@
       <main>
         <article>
           <h1 class="blogPostWelcomeHeader">Welcome, to my blog page !</h1>
-          <div class="blogPosts">
-            <div class="blogs">
+          <div class="blogPosts" id="blogPosts">
+            <div class="blogs" onclick="blogPostClick()">
               <div class="grid-item">
                 <h3><a class="blogLink" href="blogs/blog-ICT-filed-of-study.html">Profession</a></h3>
                 <div class="blog-showcase">
@@ -88,7 +89,7 @@
                   </p>
                 </div>
                 </div>
-              <div class="grid-item">
+              <div class="grid-item" onclick="blogPostClick()">
                 <h3><a class="blogLink" href="blogs/blog-first-feedback.html">First feedback</a></h3>
                 <div class="blog-showcase">
                   <p class=read-more-paragraph> Before beginning my study I was asked to fill in the form that will provide teachers with some basic information about who am I, hence the name of the form was Who am I.
@@ -98,21 +99,21 @@
                  
                 </div>             
                </div>
-              <div class="grid-item">
+              <div class="grid-item" onclick="blogPostClick()">
                 <h3><a class="blogLink" href="blogs/blog-programming-experience.html">Programming experience</a></h3>
                 <div class="blog-showcase">
                   <p class=read-more-paragraph>I first encountered programming as the freshman in the high school. We were learning how to create some basic websites using html and css but I didn’t like it back then. Maybe it was because the teacher or maybe because I didn’t find it challenging enough.
                     But later in my studies we started to learn basic about C++... </p>
                 </div>
               </div>
-              <div class="grid-item">
+              <div class="grid-item" onclick="blogPostClick()">
                 <h3><a class="blogLink" href="blogs/blog-personal-swat-analisis.html">Personal SWOT analysis</a></h3>
                 <div class="blog-showcase">
                   <p class=read-more-paragraph>Some blog post which is really really The one of the things we had to write in who am I assignment was so called personal SWOT analysis. For those who don’t know what swat analysis is it is the form of writing down in points our strengths weaknesses opportunities and threads.
                     In the field where we were supposed to write our strengths I wrote...</p>
                 </div>
               </div>
-              <div class="grid-item">
+              <div class="grid-item" onclick="blogPostClick()">
                 <h3><a class="blogLink" href="blogs/blog-study-choice.html">Study choice</a></h3>
                 <div class="blog-showcase">
                   <p class=read-more-paragraph>Some blog post which is really really </p>
