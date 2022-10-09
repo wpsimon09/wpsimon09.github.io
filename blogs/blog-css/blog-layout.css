@@ -185,3 +185,17 @@
     width: 30px;
     height: 30px;
   }
+
+  .linkAndImage{
+    display: flex;
+    flex-direction: row;
+    align-self:center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .linkImage{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
