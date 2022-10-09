@@ -78,6 +78,20 @@
       <main>
         <article>
           <h1 class="dashBoardHeader">My progress trought the year</h1>
+          <div class="progressPanel">
+            <h2 class="progressHeader">NBSA BOUNDARY</h2>
+            <div class="progressBarParentDiv">
+              <div class="progress" id="progressBar">
+              </div>
+            </div>
+            <p class="ECtext">EC: <span id="ECvalue" class="ECvalue">47</span></p>
+            <div class="TextDiv">
+              <p class="TextStart"><span class="dangerSpan"><img class="red-circle" src="resources/icons/red-circle.png">Danger</span></p>
+              <p class="TextCurent"><span class="warningSpan"><img class="orange-circle" src="resources/icons/orange-sircle.png">Warning</span></p>
+              <p class="TextFinish"><span class="safeSpan" ><img class="green-circle" src="resources/icons/green-circle.png">Safe</span></p>
+            </div>
+          </div>
+          <script src="js/nbsa.js"></script>
           <table>
             <thead>
               <tr>
@@ -120,7 +134,7 @@
                   <td>Portfolio</td>
                   <td class="grade">0</td>
               </tr>
-
+              <tr class="empty"></tr>
               <tr>
                 <td class="quartile" rowspan="2">II.</td>
                 <td rowspan="2">Object-oriented programming</td>
@@ -132,6 +146,7 @@
                   <td>Case study exam</td>
                   <td class="grade">0</td>
                 </tr>
+                <tr class="empty"></tr>
               <tr>
                 <td class="quartile" rowspan="4">III.</td>
                 <td>Framewoek development 1</td>
@@ -153,6 +168,7 @@
                 <td>Case study exam</td>
                 <td class="grade">0</td>
               </tr>
+              <tr class="empty"></tr>
               <tr>
                 <td class="quartile" rowspan="7">IV.</td>
                 <td rowspan="3">Framework project 2</td>
@@ -191,32 +207,6 @@
                 <td class="grade">0</td>
               </tr>
             </tbody>
-          </table>
-          <table class="ppdTable">
-            <thead>
-              <th class="ppdTableHeader">Personal professional development</th>
-              <tbody>
-                <tr>
-                  <td>
-                    <div class="ppedParentDiv">
-                      <div class="barParentDiv">
-                        <p class="min">0</p>
-                        <div class="personalExperienceBar">
-                          <div class="personalExperienceProgress">
-                            <p id="points" class="achievedPppdCredits">20</p>
-                          </div>
-                        </div>
-                        <p class="min">12.5</p>
-                      </div>
-                      <div class="ppedButtonDiv">
-                        <button id="ppedButtonPlus" onclick="plusClicked()" class="ppedButton">+</button>
-                        <button id="ppedButtonPlus" onclick="minusClicked()" class="ppedButton">-</button>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </thead>
           </table>
         </article>
       </main>
