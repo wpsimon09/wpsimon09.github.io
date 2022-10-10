@@ -36,7 +36,7 @@ article{
     width: 550px;
     height: 300px;
     box-shadow: 4px 4px 4px gray; 
-    transition: height 0.7s;
+    transition: all 0.7s;
     cursor: pointer;
     background-color: white;
 }
@@ -70,5 +70,6 @@ h3,.blogLink {
 }
 
 .grid-item:hover{
+  padding-top: 50px ;
   height: 370px;
 }
